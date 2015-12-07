@@ -1,0 +1,10 @@
+name 'couchpotato'
+maintainer 'Brandon Raabe'
+maintainer_email 'brandocorp@gmail.com'
+license 'apache2'
+description 'Installs/Configures couchpotato'
+long_description 'Installs/Configures couchpotato'
+version '0.1.0'
+
+depends 'build-essential'
+depends 'poise-python'

@@ -1,0 +1,8 @@
+<%- node['couchpotato']['config'].each do |section, settings| %>
+[<%=  section %>]
+<%-   settings.each do |key, value| %>
+<%-     next if value.nil? %>
+<%=     key %> = <%= value %>
+<%    end %>
+<%= "" %>
+<% end %>
